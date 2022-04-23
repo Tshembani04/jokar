@@ -23,8 +23,8 @@ li {
   line-height: 10vh;
   height: 10vh;
   background: whitesmoke;
-  
-  box-shadow: #F7DA59 0 30px 30px -20px;
+
+  box-shadow: #f6f6f6 0 30px 30px -20px;
 
   display: flex;
   justify-content: space-around;
@@ -34,9 +34,7 @@ li {
   font-size: 30px;
   font-family: "Rubik Wet Paint", cursive;
   color: #f2c832;
-  
 }
-
 
 .logo a {
   text-decoration: none;
@@ -57,7 +55,7 @@ li {
 }
 .hero {
   text-align: center;
-  margin-top: 15%;
+  margin-top: 4%;
 }
 .hero h1 {
   text-align: center;
@@ -77,7 +75,7 @@ button {
   .logo {
     display: flex;
     position: absolute;
-    top: 15px;
+    top: 1px;
     left: 35px;
   }
   .nav-links {
@@ -87,7 +85,8 @@ button {
     position: absolute;
     display: block;
     list-style: none;
-    box-shadow: rgba(50, 50, 93, 0.23) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    box-shadow: rgba(50, 50, 93, 0.23) 0px 50px 100px -20px,
+      rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
     left: 0;
     top: 10%;
     transition: all 0.5s ease-in-out;
@@ -108,12 +107,11 @@ button {
   .hero h1 {
     font-size: 50px;
   }
+  .hero{
+    text-align: center;
+  margin-top: 7%;
+  }
 }
-
-
-
-
-
 
 /* 
 
