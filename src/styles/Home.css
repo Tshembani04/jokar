@@ -2,7 +2,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Rubik+Wet+Paint&display=swap");
 
 .hero .header h1 {
-  font-size: 55px;
+  font-size: 75px;
+  
   text-align: center;
   line-height: 60px;
   font-family: "Poppins", sans-serif;
@@ -12,7 +13,7 @@
   border-radius: 0.5em;
   box-shadow: 0 0 1em rgba(0, 0, 0, 0.2);
   text-transform: capitalize;
-  line-height: 3em;
+  line-height: 2.5em;
   transition: all 0.5s;
 }
 
@@ -47,6 +48,19 @@
   text-transform: capitalize;
   line-height: 3em;
 }
+
+.hero .header h5:hover {
+ 
+  font-family: "Poppins", sans-serif;
+  color: #021056;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  background-color: white;
+  box-sizing: border-box;
+  border-radius: 1em; 
+  transition: all 0.15s; 
+}
+
 
 @media (max-width: 768px) {
   .hero .header h1 {
