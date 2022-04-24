@@ -3,7 +3,7 @@
 
 .hero .header h1 {
   font-size: 75px;
-  
+
   text-align: center;
   line-height: 60px;
   font-family: "Poppins", sans-serif;
@@ -41,7 +41,7 @@
   color: #021056;
   margin-top: 5px;
   margin-bottom: 5px;
-  background-color: #f2c832;
+  background-color: white;
   box-sizing: border-box;
   border-radius: 1em;
   box-shadow: #f6f6f6 0 30px 30px -20px;
@@ -50,17 +50,15 @@
 }
 
 .hero .header h5:hover {
- 
   font-family: "Poppins", sans-serif;
   color: #021056;
   margin-top: 5px;
   margin-bottom: 5px;
   background-color: white;
   box-sizing: border-box;
-  border-radius: 1em; 
-  transition: all 0.15s; 
+  border-radius: 1em;
+  transition: all 0.15s;
 }
-
 
 @media (max-width: 768px) {
   .hero .header h1 {
@@ -77,3 +75,161 @@
     padding-bottom: 5px;
   }
 }
+
+.hero button {
+  background-color: #000035;
+  color: white;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  height: 34px;
+  width: 200px;
+  padding-right: 12px;
+  padding-bottom: 4px;
+  margin-top: 80px;
+  border: none;
+  border-radius: 18px;
+  cursor: pointer;
+  transition: box-shadow 0.15s;
+  vertical-align: top;
+}
+
+.hero button:hover {
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15); /*horizonatl, vertical, blur and color*/ /*rgba the a value meaens the opacity*/
+}
+
+.hero button svg {
+  font-size: 200px;
+  width: 23px;
+  padding-left: 5px;
+  margin-left: 10px;
+  margin-bottom: -4px;
+  padding-top: 6px;
+}
+
+/* 
+
+
+
+.context {
+  width: 100%;
+  position: absolute;
+  top:50vh;
+  
+}
+
+.context h1{
+  text-align: center;
+  color: #021056;
+  font-size: 50px;
+}
+
+
+.area{
+  background: #f6f6f6;  
+  background: -webkit-linear-gradient(to left, #021056, #000026);  
+  width: 100%;
+  height:100vh;
+  
+ 
+}
+
+.circles{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.circles li{
+  position: absolute;
+  display: block;
+  list-style: none;
+  width: 20px;
+  height: 20px;
+  background: #021056;
+  animation: animate 25s linear infinite;
+  bottom: -150px;
+  
+}
+
+.circles li:nth-child(1){
+  left: 25%;
+  width: 80px;
+  height: 80px;
+  animation-delay: 0s;
+}
+
+
+.circles li:nth-child(2){
+  left: 10%;
+  width: 20px;
+  height: 20px;
+  animation-delay: 2s;
+  animation-duration: 12s;
+}
+
+
+.circles li:nth-child(3){
+  left: 40%;
+  width: 60px;
+  height: 60px;
+  animation-delay: 0s;
+  animation-duration: 18s;
+}
+
+
+
+.circles li:nth-child(4){
+  left: 75%;
+  width: 110px;
+  height: 110px;
+  animation-delay: 3s;
+}
+
+.circles li:nth-child(5){
+  left: 35%;
+  width: 150px;
+  height: 150px;
+  animation-delay: 7s;
+}
+
+
+
+.circles li:nth-child(6){
+  left: 20%;
+  width: 15px;
+  height: 15px;
+  animation-delay: 2s;
+  animation-duration: 35s;
+}
+
+.circles li:nth-child(7){
+  left: 85%;
+  width: 150px;
+  height: 150px;
+  animation-delay: 0s;
+  animation-duration: 11s;
+}
+
+
+
+@keyframes animate {
+
+  0%{
+      transform: translateY(0) rotate(0deg);
+      opacity: 1;
+      border-radius: 0;
+  }
+
+  
+  100%{
+      transform: translateY(-1000px) rotate(220deg);
+      opacity: 0;
+      border-radius: 55px;
+  }
+
+} */
