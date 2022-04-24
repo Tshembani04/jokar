@@ -22,10 +22,8 @@ li {
 .navbar {
   line-height: 10vh;
   height: 10vh;
-  background: whitesmoke;
-
+  background: #f6f6f6;
   box-shadow: #f6f6f6 0 30px 30px -20px;
-
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -53,6 +51,28 @@ li {
   cursor: pointer;
   text-transform: capitalize;
 }
+
+.nav-links li:hover {
+  background: linear-gradient(
+      to right,
+      rgba(100, 200, 200, 1),
+      rgba(100, 200, 200, 1)
+    ),
+    linear-gradient(
+      to right,
+      rgba(247, 218, 89),
+      rgba(0, 0, 38),
+      rgba(242, 200, 50)
+    );
+  background-size: 100% 3px, 0 3px;
+  background-position: 100% 100%, 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size 400ms;
+  background-size: 0 3px, 100% 3px;
+  transition: all 0.3s ease-out;
+  border-radius: 20px;
+}
+
 .hero {
   text-align: center;
   margin-top: 4%;
@@ -107,9 +127,9 @@ button {
   .hero h1 {
     font-size: 50px;
   }
-  .hero{
+  .hero {
     text-align: center;
-  margin-top: 7%;
+    margin-top: 7%;
   }
 }
 
