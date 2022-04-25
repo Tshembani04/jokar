@@ -113,8 +113,8 @@ button {
     top: 10%;
     transition: all 0.5s ease-in-out;
     width: 100%;
-     transform: translate(0px) scale(0.99);
-    background-image: linear-gradient(0deg, #000026, #1c1045);
+     transform: translate(0px) scale(1);
+    background-image: linear-gradient(5deg, #F7DA59, #F2C832);
     height: 90%;
     overflow: hidden;
     display: flex;
@@ -135,7 +135,7 @@ button {
     width: 100%;
     transition: all 0.5s ease-in-out;
     text-align: center;
-    color: #f6f6f6;
+    color: #000026;
   }
   .mobile-menu-icon {
     position: absolute;
