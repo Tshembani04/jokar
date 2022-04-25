@@ -102,6 +102,8 @@ button {
     display: none;
   }
   .nav-links-mobile {
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
     position: absolute;
     display: block;
     list-style: none;
@@ -111,13 +113,29 @@ button {
     top: 10%;
     transition: all 0.5s ease-in-out;
     width: 100%;
-    background-color: white;
+     transform: translate(0px) scale(0.99);
+    background-image: linear-gradient(0deg, #000026, #1c1045);
+    height: 90%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: flex-start;
+    align-items: center;
+    color: #f6f6f6;
+    border-radius: 15px;
+    cursor: pointer;
   }
+
+
+
   ul li {
-    padding: 32px;
+    padding: 30px;
     width: 100%;
     transition: all 0.5s ease-in-out;
     text-align: center;
+    color: #f6f6f6;
   }
   .mobile-menu-icon {
     position: absolute;
