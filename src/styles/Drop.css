@@ -34,7 +34,7 @@
   justify-content: space-evenly;
   gap: 0.2rem;
   font-size: 1.4rem;
-  
+  /* box-shadow: rgba(0, 0, 0, 0.2) 0px 60px 40px -7px; */
 }
 
 @media screen and (min-width: 280px) and (max-width: 1080px) {
@@ -48,12 +48,28 @@
     overflow: auto;
     justify-content: flex-start;
     gap: 2rem;
-    padding-left: 1.5rem;}
+    padding-left: 2.9rem;}
     ::-webkit-scrollbar {
       display: list-item;
     }
+    .title {
+      color: #f2c832;
+      font-size: 2rem;
+      font-family: "Poppins", sans-serif;
+      text-align: center;
+    }
+    .description {
+      color: #000026;
+      font-family: "Poppins", sans-serif;
+      font-size: 1rem;
+      text-align: center;
+    }
   
 .card{
-  zoom: 0.7;
+  zoom: 0.9;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 0.2rem;
+  
 }
 }

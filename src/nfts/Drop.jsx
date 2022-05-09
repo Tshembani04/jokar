@@ -42,18 +42,18 @@ const data =
             title: 'Crypto Punk',
             desc: 'Rare pixilated punk of all time',
         },
-        {
-            id: 5,
-            img: img5,
-            title: 'Crypto Punk',
-            desc: 'Rare pixilated punk of all time',
-        },
-        {
-            id: 6,
-            img: img6,
-            title: 'Crypto Punk',
-            desc: 'Rare pixilated punk of all time',
-        },
+        // {
+        //     id: 5,
+        //     img: img5,
+        //     title: 'Crypto Punk',
+        //     desc: 'Rare pixilated punk of all time',
+        // },
+        // {
+        //     id: 6,
+        //     img: img6,
+        //     title: 'Crypto Punk',
+        //     desc: 'Rare pixilated punk of all time',
+        // },
         {
             id: 7,
             img: img7,
@@ -103,6 +103,7 @@ const data =
             desc={desc}
             key={index}
             />
+            
           ))
         }
       </div>
