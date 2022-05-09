@@ -13,7 +13,7 @@ const Navbar = () => {
     <>
     <nav className='navbar'>
       {/* <h3 className='logo'>The Dealers</h3> */}
-      <a href="/" className='logo' >The Dealers</a>
+      <a href="/" className='logo'  >The Dealers</a>
 
       {/*
       if large screen ma xa bhane Mobile add huxa

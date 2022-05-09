@@ -8,6 +8,9 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@craco/craco": "^6.4.3",
+    "clsx": "^1.1.1",
+    "lodash": "^4.17.21",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-icons": "^4.3.1",
@@ -15,6 +18,21 @@
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^1.0.7",
+   
+    "autoprefixer": "^10.4.7",
+    
     "vite": "^2.9.0"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }

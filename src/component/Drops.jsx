@@ -1,11 +1,16 @@
 import React from "react";
+import Card from "../nfts/Card";
+import Drop from "../nfts/Drop";
 
 const Drops = () => {
   return (
+    <>
     <div className="hero">
-      <h1>Drops</h1>
+      <Drop/>
     </div>
+    </>
+    
   );
-};
+};      
 
 export default Drops;

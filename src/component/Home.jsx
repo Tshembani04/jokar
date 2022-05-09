@@ -1,9 +1,15 @@
 import React from "react";
 import "../styles/Home.css";
+import BG from '../images/bg.jpg';
+
 
 const Home = () => {
   return (
     <div className="hero">
+      {/* <div className="image">
+          <img src={BG} alt="bg" className="img" />
+      </div>
+     */}
       <div className="header">
         <h1>Discover rare digital art and collection NFTs</h1>
         <h5>
